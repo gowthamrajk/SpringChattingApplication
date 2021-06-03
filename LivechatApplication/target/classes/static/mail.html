@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+      <title>Invitation</title>
+      <link rel="stylesheet" href="/css/main.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+
+    <div id="username-page">
+        <div class="username-page-container">
+            <h1 class="title">Invitation to be sent ? &#129300;</h1>
+            <form id="usernameForm" name="usernameForm">
+            <div class="input-container">
+              <input type="email" id="email" placeholder="mail id" autocomplete="off" required/>
+              <div class="bar"></div>
+              <div class="highlight"></div>
+            </div>          
+            <button type="submit" value="Invite" class="accent username-submit">Invite &nbsp<i class="fa fa-user-plus" style="color: white;" aria-hidden="true"></i></button>
+          </form>
+        </div>
+    </div>
+    <script src="js/mail.js"></script>
+  </body>
+</html>

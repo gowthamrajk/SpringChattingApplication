@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+      <title>We-chat</title>
+      <link rel="stylesheet" href="/css/main.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  </head>
+  <body>
+    <noscript>
+      <h2>Sorry! Your browser doesn't support Javascript</h2>
+    </noscript>
+
+    <div id="username-page">
+        <div class="username-page-container">
+            <h1 class="title">May I Know your name  &#128512;</h1>
+            <form id="usernameForm" name="usernameForm">
+                <div class="input">
+                    <input type="text" id="name" placeholder="username" autocomplete="off" required/>
+                    <div class="bar"></div>
+                    <div class="highlight"></div>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="accent username-submit">Start Chatting &nbsp<i class="far fa-comments"></i></button>
+                    &nbsp&nbsp&nbsp<button type="submit" id="mailbtn" class="accent username-submit">Invite Friend &nbsp<i class="fa fa-user-plus" aria-hidden="true"></i></button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="chat-page" class="hidden">
+        <div class="chat-container">
+            <div class="chat-header">
+                <h2>Hey All !! Lets Stay Connected Virtually</h2>
+                <i class="fas fa-times-circle" id="exitbtn" href="javascript:close_window();"></i>
+            </div>
+            <div class="connecting">
+                Connecting...
+            </div>
+            <ul id="messageArea">
+
+            </ul>
+            <form id="messageForm" name="messageForm">
+                <div class="form-group">
+                    <div class="input-group clearfix">
+                        <input type="text" id="message" placeholder="Type a message..." autocomplete="off" class="form-control"/>
+                        <i class="far fa-grin-alt" onclick="" style="font-size:30px;"></i>
+                        <button type="submit" id="primary" class="primary"><i class="fa fa-paper-plane" style="font-size:24px; aria-hidden="true"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <div class="model-container" id="modelcontainer">
+        <div class="model">
+            <h2 id="modaltext">Someone Left the Chat &#128542;</h2>
+            <img id="pic" src="img/logout.png" width="200" height="200"><br><br>
+        </div>
+    </div></div>
+    
+    <div class="mask" role="dialog"></div>
+        <div class="modal" role="alert">
+             <header>Emoji List</header>
+             <div class="emjlist">
+                 <button class="emjbtn" style="font-size:32px" id="button1" value="&#128512;">&#128512;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button2" value="&#128542">&#128542;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button3" value="&#128515;">&#128515;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button4" value="&#128514">&#128514;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button5" value="&#128520;">&#128520;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button6" value="&#128525">&#128525;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button7" value="&#128526;">&#128526;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button8" value="&#128528">&#128528;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button9" value="&#128536;">&#128536;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button10" value="&#128541">&#128541;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button11" value="&#128545;">&#128545;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button12" value="&#128555">&#128555;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button13" value="&#128077;">&#128077;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button14" value="&#128567">&#128567;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button15" value="&#129313;">&#129313;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button16" value="&#129488">&#129488;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button17" value="&#129324;">&#129324;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button18" value="&#128557">&#128557;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button19" value="&#128513;">&#128513;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button20" value="&#129335">&#129335;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button21" value="&#128527;">&#128527;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button22" value="&#128530">&#128530;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button23" value="&#128538;">&#128538;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button24" value="&#128540">&#128540;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button25" value="&#128544;">&#128544;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button26" value="&#128548">&#128548;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button27" value="&#128552;">&#128552;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button28" value="&#128556">&#128556;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button29" value="&#128563;">&#128563;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button30" value="&#128566">&#128566;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button31" value="&#129296;">&#129296;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button32" value="&#129316">&#129316;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button33" value="&#129327;">&#129327;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button34" value="&#128053">&#128053;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button35" value="&#128068;">&#128068;</button>
+                 <button class="emjbtn" style="font-size:32px" id="button36" value="&#128557">&#128557;</button>
+             </div>
+        <button class="close" role="button">X</button>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.1.4/sockjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
