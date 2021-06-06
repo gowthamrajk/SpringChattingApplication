@@ -1,5 +1,7 @@
 # SpringChattingApplication
 
+![](https://img.shields.io/github/languages/count/gowthamrajk/springbootlogging)   ![](https://img.shields.io/github/languages/top/gowthamrajk/springbootlogging)
+
 - It is a Live web based Chatting Application 🔅 named WE-CHAT which can help you to get connected with your friends 👨‍👦‍👦 and chat online.
 
 - The chatting feature is enabled with text 📑, emojies 😃 😇 (I have created my custom selection list of emojies. 
