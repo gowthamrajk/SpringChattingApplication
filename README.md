@@ -30,3 +30,6 @@
 ![Socket.io](https://img.shields.io/static/v1?style=for-the-badge&message=Socket.io&color=010101&logo=Socket.io&logoColor=FFFFFF&label=)
 ![protocols.io](https://img.shields.io/static/v1?style=for-the-badge&message=protocols.io&color=4D9FE7&logo=protocols.io&logoColor=FFFFFF&label=)
 
+## Development 🔭
+
+![Java](https://img.shields.io/static/v1?style=for-the-badge&message=Open+JDK+14&color=007396&label=)
