@@ -27,6 +27,6 @@
 ## Server Side ⚡
 
 ![Spring Boot](https://img.shields.io/static/v1?style=for-the-badge&message=Spring+Boot&color=6DB33F&logo=Spring+Boot&logoColor=FFFFFF&label=)
-![Spring](https://img.shields.io/static/v1?style=for-the-badge&message=Spring+Security&color=6DB33F&logo=Spring&logoColor=FFFFFF&label=)
-![Spring Boot](https://img.shields.io/static/v1?style=for-the-badge&message=Spring+Web&color=6DB33F&logo=Spring+Boot&logoColor=FFFFFF&label=)
-![Hibernate](https://img.shields.io/static/v1?style=for-the-badge&message=Hibernate&color=59666C&logo=Hibernate&logoColor=FFFFFF&label=)
+![Socket.io](https://img.shields.io/static/v1?style=for-the-badge&message=Socket.io&color=010101&logo=Socket.io&logoColor=FFFFFF&label=)
+![protocols.io](https://img.shields.io/static/v1?style=for-the-badge&message=protocols.io&color=4D9FE7&logo=protocols.io&logoColor=FFFFFF&label=)
+
