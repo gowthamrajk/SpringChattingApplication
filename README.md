@@ -28,6 +28,7 @@
 
 ![Spring Boot](https://img.shields.io/static/v1?style=for-the-badge&message=Spring+Boot&color=6DB33F&logo=Spring+Boot&logoColor=FFFFFF&label=)
 ![Socket.io](https://img.shields.io/static/v1?style=for-the-badge&message=Socket.io&color=010101&logo=Socket.io&logoColor=FFFFFF&label=)
+![Java](https://img.shields.io/static/v1?style=for-the-badge&message=Java&color=007396&logo=Java&logoColor=FFFFFF&label=)
 ![protocols.io](https://img.shields.io/static/v1?style=for-the-badge&message=protocols.io&color=4D9FE7&logo=protocols.io&logoColor=FFFFFF&label=)
 
 ## Development 🔭
