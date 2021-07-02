@@ -79,6 +79,7 @@
 
 ## New User joining
 
+![image](https://user-images.githubusercontent.com/43011442/124281886-d107dd00-db67-11eb-8bc1-9bf3ba08c7de.png)
 
 
 
