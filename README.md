@@ -96,6 +96,8 @@
 
 ## User Leaving
 
+![image](https://user-images.githubusercontent.com/43011442/124282814-de719700-db68-11eb-957c-7114a31c2fa9.png)
+
 
 
 **For more queries, reach me through gowthamraj692@gmail.com or whatsapp @ 9698382306**
