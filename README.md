@@ -9,8 +9,6 @@
 - You can uniquely identify who have joined and who have left.
 - You can also invite your friends to join the conversation through an invitation mail 📧
 
-- I have used normal UI technologies (html, css, js, jquery) for front end design.
-- For Backend techstacks, i have used SpringBoot, WebSocket protocol for full duplex communication between users, STOMP client to access websocket with the support of Message Brokers, MailSender and MimeMessage interfaces for sending email invitations through MIME protocol 📩.
 
 # TECHNOLOGIES USED 📌
 
