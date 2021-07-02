@@ -4,7 +4,7 @@
 
 - It is a Live web based Chatting Application 🔅 named WE-CHAT which can help you to get connected with your friends 👨‍👦‍👦 and chat online.
 
-
+## Features
 
 - The chatting feature is enabled with text 📑, emojies 😃 😇 (I have created my custom selection list of emojies. 
 - You can select from that or even if you type any keywords for the emojies in chat area, it will be recognized and converted as emojies).
