@@ -94,10 +94,11 @@
 ![image](https://user-images.githubusercontent.com/43011442/124282436-7458f200-db68-11eb-94c2-1e85301acca4.png)
 
 
-## User Leaving
+## When User Leaves the Chat
 
 ![image](https://user-images.githubusercontent.com/43011442/124282814-de719700-db68-11eb-957c-7114a31c2fa9.png)
 
+![image](https://user-images.githubusercontent.com/43011442/124282875-ee897680-db68-11eb-9340-5abe67627640.png)
 
 
 **For more queries, reach me through gowthamraj692@gmail.com or whatsapp @ 9698382306**
