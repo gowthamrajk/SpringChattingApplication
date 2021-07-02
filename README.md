@@ -81,6 +81,9 @@
 
 ![image](https://user-images.githubusercontent.com/43011442/124281886-d107dd00-db67-11eb-8bc1-9bf3ba08c7de.png)
 
+![image](https://user-images.githubusercontent.com/43011442/124281968-e41aad00-db67-11eb-83c0-8b148a563c06.png)
+
+![image](https://user-images.githubusercontent.com/43011442/124281996-eda41500-db67-11eb-97d4-59aaa6348faf.png)
 
 
 **For more queries, reach me through gowthamraj692@gmail.com or whatsapp @ 9698382306**
